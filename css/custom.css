@@ -1,0 +1,77 @@
+﻿
+*{ margin:0px; padding:0px;}
+body{ font-family: 'Open Sans', sans-serif; color:#494949; background:#ffffff; font-size:16px; line-height:18px;}
+h1{ margin:0px;}
+h2{ margin:0px;}
+h3{ margin:0px;}
+h4{ margin:0px;}
+h5{ margin:0px;}
+h6{ margin:0px;}
+p{ margin:0px}
+ul li{ list-style:none;}
+a{ outline:none; text-decoration:none; font-family: 'Montserrat', sans-serif;}
+a:hover{ text-decoration:none;}
+a:focus{ outline:none; text-decoration:none;}
+.btn{ border:0px; cursor:pointer;}
+.btn:focus{ outline:none !important;}
+.btn:active{ box-shadow: inset 0 0px 0px rgba(0,0,0,.125);}
+img{ max-width:100%;}
+input, select, textarea{}
+fieldset{}
+hr{}
+.clr{ clear:both;}
+
+
+
+
+/*============== Common Css Starts Here ===============*/
+.text_blue{color:#2ea3f2;}
+.btn_blue{background: #2ea3f2; color: #fff; font-size:16px; font-weight: bold; transition: all 0.3s ease;  text-transform: capitalize; padding: 10px 15px; width: 100%;}
+.btn_blue:hover{color: #fff; opacity:0.8;}
+/*============== Common Css Starts Here ===============*/
+
+
+
+/*============== Form Header Css Starts Here ===============*/
+.form_top {padding: 25px 0px;}
+.form_top .form_heading {margin:35px 0px 0px;}
+.form_top .form_heading h2{font-size:25px; font-weight:bold; color:#494949; text-transform:capitalize;}
+/*============== Form Header Css Ends Here ===============*/
+
+/*============== Form Main Css Starts Here ===============*/
+.form_main{width:400px; max-width:100%; background-color: #F1F1F1; border-radius: 2px; border: 1px solid #C2C3C5;  margin: 0px auto; padding: 25px;}
+.form_main .form-group{width:400px; max-width:100%; margin-bottom:20px;}
+.form_main .form-group .form-control{border:1px solid #aaa; height: 38px; color:#666;}
+.form_main .form-group .form-control:focus{border-color:#2ea3f2;}
+.form_main .form-group label{margin-bottom:10px; text-transform:capitalize;}
+.bootstrap-select.form-control{border:1px solid #aaa; }
+.bootstrap-select.form-control .btn-default{ height: 36px; color:#666;}
+.bootstrap-select.form-control .btn-default:hover{background-color:transparent !important; border-color: #aaa; color:#666;}
+.bootstrap-select.form-control .btn-default:focus{background-color:transparent !important; border-color: #aaa; color:#666;}
+.form_main .form-group .btn-default.active, .form_main .form-group .btn-default:active, .open>.dropdown-toggle.btn-default{background-color:transparent !important;}
+.form_main .form-group .bootstrap-select.form-control .dropdown-menu{margin:0px; padding:0;}
+.form_main .form-group .bootstrap-select.form-control .dropdown-menu>li>a{padding:8px 20px; border-bottom:1px solid #ccc;}
+.form_main .form-group .bootstrap-select.form-control .dropdown-menu>li:last-child a{border-bottom:0px;}
+.form_main .form-group .bootstrap-select.form-control .dropdown-menu>li>a:hover ,.form_main .form-group .bootstrap-select.form-control .dropdown-menu>li>a:focus{background:#2ea3f2; color: #fff;}
+.form_main .form-group .form-control::-webkit-input-placeholder { color:#666;}
+.form_main .form-group .form-control::-moz-placeholder { color:#666;}
+.form_main .form-group .form-control:-ms-input-placeholder {color:#666;}
+.form_main .form-group .form-control:-moz-placeholder { color:#666;}
+.form_main .btn_blue{margin-top:15px;}
+.form_main .form-group .form-control.message_box{height:100%;  width: 348px !important;
+    max-width: 100% !important;}
+/*============== Form Main Css Ends Here ===============*/
+
+/*============== Form bottom Starts Here ===============*/
+.form_bottom{ margin-top:20px; text-align:center;}
+.form_bottom p{ margin-top:15px;}
+
+/*============== Form bottom Ends Here ===============*/
+
+
+
+@media (min-width: 1200px){
+	.container {
+	    width: 1200px;
+	}	
+}
